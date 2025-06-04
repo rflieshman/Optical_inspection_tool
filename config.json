@@ -1,0 +1,26 @@
+{
+  "detection_method": "watershed",
+  "thresholds": {
+    "shape_score": {
+      "ok": 0.15,
+      "nok": 0.5
+    },
+    "rotinv_moment_dist": {
+      "ok": 0.2,
+      "nok": 0.5
+    },
+    "fourier_dist": {
+      "ok": 0.15,
+      "nok": 0.5
+    },
+    "sift_score": {
+      "ok": 0.25,
+      "nok": 0.5
+    }
+  },
+  "selected_metrics": [
+    "shape_score",
+    "rotinv_moment_dist",
+    "fourier_dist"
+  ]
+}
